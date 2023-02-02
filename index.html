@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<main>
+
+<header>
+    <img src="img/photo1673226162.jpeg" class="logo" alt="logo-infotechoficial"><p>InfoTech S. Oficial</p>
+    <img src="img/logonc.png" alt="nathan-carvalho" class="logo_nathan"><p>Nathan Carvalho</p>  
+</header>
+<div class="container">
+    <div class="Cashier1">
+        <div class="Cashier2">
+            <article class="ebook">
+                <img src="img/capaebook.png" alt="capa" class="frontcover">
+            </article>
+            <article class="description_ebook">
+                <h1 class="title">Guia: Como Ganhar Dinheiro Com o TikTok | Marketing no TikTok</h1>
+                <h4 class="text_promotion">Por apenas <strong>R&#36 0,00</strong></h4>
+                <article class="description_detail">
+                    <h3><img src="img/exclusive.png" alt="exclusive" class="img_exclusive"> Exclusivo</h3>
+                    <h3><img src="img/modey.png" alt="modey" class="img_modey"> Ganhar Dinheiro</h3>
+                    <h3><img src="img/marketing.png" alt="marketing" class="img_marketing"> Marketing no TikTok</h3>
+                    <h3><img src="img/strategy.png" alt="strategy" class="img_strategy"> Estratégias no Marketing aplicadas</h3>
+                    <h3><img src="img/quantum.png" alt="quantum" class="img_quantum"> + A Formula que fez 101 mi de views em 2 meses</h3>
+                </article>
+                <button class="btn_get" id="btnGet">Obter gratuitamente</button>
+                        <div id="myModal" class="modal">
+                                
+                                <div class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <p class="content_modal">Para receber o "Guia: Como Ganhar Dinheiro com o TikTok | Marketing no TikTok" você precisa adicionar seu email logo abaixo para que seja enviado automaticamente.</p>
+                                            <article class="forms">
+                                            <label for="name">Nome:</label>
+                                            <input type="text" name="name" id="from_name" class="input_name" placeholder="Nome" required>
+                                            <br>
+                                            <label for="email">Email:</label>
+                                            <input type="email" name="email" id="to_email" class="input_email" placeholder="Email" required>
+                                            <p id="demo" class="demo"></p>
+                                        <br>
+                                            <input type="submit" value="Receber" class="submit" onclick="sendMail()" id="submit">
+                                            </article>
+                                </div>
+                            </div>
+            </article>
+        </div>
+    </div>
+
+    <div class="Cashier3">
+        <h1>Conteúdo do Guia</h1>
+        <div class="Cashier4">
+            <article class="content1">
+                <h3><img src="img/tick.png" alt="tick" class="img_tick">O Que É Marketing De Afiliados Do TikTok?</h3>
+                <h3><img src="img/tick.png" alt="tick" class="img_tick">Maneiras De Ganhar Dinheiro No TikTok</h3>
+                <h3><img src="img/tick.png" alt="tick" class="img_tick">Construindo Seu Público TikTok</h3>
+                <h3><img src="img/tick.png" alt="tick" class="img_tick">Mas vale a pena investir no TikTok??</h3>
+                <h3><img src="img/tick.png" alt="tick" class="img_tick">Finalizando</h3>
+                <h3><img src="img/tick.png" alt="tick" class="img_tick">A Formula que fez 101 mi de views em 2 meses</h3>
+            </article>
+            <article class="content2">
+        <a href="" target="_blank" rel="noopener noreferrer"><img src="img/GoogleAds.png" alt="googleads"></a>
+            </article>
+        </div>
+    </div>
+</div>
+
+                <div id="myAlert" class="alert_send_mail">
+                                            
+                    <div class="content_alert">
+                        <span class="close2">&times;</span>
+                        <p>
+                            Foi enviado com sucesso o seu Guia!!
+                            Confere seu email
+                        </p>
+                                
+                    </div>
+                </div>
+
+                <div class="content_loader">
+                    <span class="loader"></span>
+                    <br>
+                    <span>Carregando...</span>
+                </div>
+
+<footer>
+<article class="footer">
+    <article>
+        <img src="img/photo1673226162.jpeg" class="logo2" alt="logo-infotechoficial">
+    </article>
+    <article>
+       <h3>Inicio</h3>
+       <p>Em breve...</p>
+    </article>
+    <article>
+        <h3>Suporte</h3>
+        <a href="https://www.instagram.com/infotech_stu.oficial/" class="rd">Ajuda</a>
+    </article>
+    <article>
+        <h3>Redes Sociais</h3>
+        <a href="https://www.instagram.com/infotech_stu.oficial/" class="rd">Instagram</a>
+        <br>
+        <br>
+        <a href="https://www.tiktok.com/@infotech_stu.oficial?is_from_webapp=1&sender_device=pc" class="rd">TikTok</a>
+        <br>
+        <br>
+        <a href="https://www.facebook.com/infotechstudentsoficial" class="rd">Facebook</a>
+
+    </article>
+</article>  
+    <article class="bottom_footer">
+        <p><img src="img/copyright.png" alt="copyright" class="copyright"> 2023 - Copyright - Programador <a href="https://www.instagram.com/nathan_vitor.carvalho/" class="rd">Nathan Carvalho</a></p>
+    </article>
+</footer>
+
+</main>
+
+<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('spzsOkE-raOVjAYIv')
+</script>
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,310 @@
+:root{
+    --background-color-header: #000;
+    --color: #fff;
+    --fonts-body: 'Public Sans',sans-serif;
+    --chakra-fontSizes-3xl: 2rem;
+    --color-basic: #7C7C8A;
+    --color-money: #26ec1f;
+    --color-segundary: #0844BF;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonts-body);
+}
+
+/* main{
+   
+}  */
+
+.container{
+    padding: 22px;
+}
+
+header{
+    background-color: var(--background-color-header);
+    color: var(--color);
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.logo{
+    width: 3em;
+}
+
+.logo_nathan{
+    width: 3em;
+    padding-left: 1em;
+}
+
+.Cashier1{
+    text-align: center;
+    padding-top: 22px;
+}
+
+.Cashier2{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Cashier2 .ebook .frontcover{
+  width: 480px;
+}
+
+.img_modey, .img_marketing, .img_exclusive, .img_strategy, .img_quantum{
+    width: 25px;
+}
+
+.description_ebook{
+    color: var(--color-basic);
+}
+
+.description_ebook strong{
+    font-size: 3.5em;
+    margin-left: 5px;
+    color: var(--color-money);
+}
+
+.description_ebook .description_detail{
+    text-align: start;
+}
+
+.btn_get{
+    background-color: var(--color-money);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 0.5em;
+}
+
+.btn_get:hover{
+    cursor: pointer;
+    background-color: #01ff62;
+}
+
+.modal{
+    display: none;
+    background: hsla(0, 0%, 1%, 0.603);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    overflow:auto;
+}
+
+.modal-content{
+    background-color: #fefefe;
+    margin: 20% auto;
+    padding: 20px;
+    border-radius: 1em;
+    width: 80%; 
+    font-weight: bold;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.content_modal{
+    color: var(--color-basic);
+}
+
+.forms label,input{
+    margin-bottom: 1.5em;
+}
+
+.input_email, .input_name{
+    border-radius: 0.4em;
+    border-style:solid;
+}
+
+.submit{
+    border-radius: 0.4em;
+    border: none;
+    background-color: var(--color-money);
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.demo{
+    font-size:small;
+    padding: 0px;
+    margin: 0px;
+    color: rgb(255, 0, 0);
+}
+
+.alert_send_mail{
+    display: none;
+    background: transparent;
+    position: fixed;
+    top: 80%;
+    left: 0;
+    z-index: 1;
+    width: 50%;
+    height: 40%;
+}
+
+.content_alert{
+    background-color: #00ff00;
+    margin: auto 10%;
+    padding: 20px;
+    border-radius: 1em;
+    width: 80%; 
+    color: var(--background-color-header);
+    font-weight: bold;
+}
+
+
+.close2{
+    color: #000000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.content_loader{
+    z-index: 1;
+    display: none;
+    background: transparent;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 40%;
+}
+
+.Cashier3{
+    margin-bottom: 2em;
+    color: var(--color-basic);
+}
+
+.Cashier3 h1{
+    text-align: center;
+    margin: 2em 0em;
+}
+
+.Cashier4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.content2{
+   margin-top: 2em;
+} 
+
+.img_tick{
+    width: 25px;
+    padding: 0px 10px;
+}
+
+
+
+
+
+
+
+
+  
+  .loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid rgb(0, 0, 0);
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
+
+.footer{
+    background-color: var(--background-color-header);
+    color: var(--color);
+    padding-top: 4em;
+    padding-bottom: 4em;
+    padding-left: 2em;
+    padding-right: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+footer{
+    background-color: var(--background-color-header);
+    color: var(--color);
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.bottom_footer{
+    text-align: center;
+}
+
+.copyright{
+    width: 1em;
+}
+
+footer .rd{
+    text-decoration: none;
+    color: var(--color);
+}
+
+footer .rd:hover{
+    cursor: pointer;
+    color: var(--color-segundary);
+}
+
+.logo2{
+    width: 50%;
+}
+
+/* footer article{
+   display: flex;
+
+}
+ */
+/* .youtube, .instagram{
+    width: 1.5em;
+    margin-top: 11px;
+    margin-left: 5px;
+    padding: 0px 5px;
+} */
