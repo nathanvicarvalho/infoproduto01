@@ -37,18 +37,12 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40%;
+    width: 10%0%;
     margin: 10px;
 }
 
 .logo{
-    width: 15%;
-    height: 15%;
-}
-
-.logo_nathan{
-    width: 15%;
-    height: 15%;
+    width: 5em;
 }
 
 .Cashier1{
